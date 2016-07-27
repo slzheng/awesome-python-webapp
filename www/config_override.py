@@ -6,9 +6,13 @@ Override configurations.
 '''
 
 __author__ = 'Michael Liao'
-
+import sae.const
 configs = {
     'db': {
-        'host': '127.0.0.1'
+        'host': 'slzheng.mysql.pythonanywhere-services.com',
+        'port': 3306,
+        'user': 'slzheng',
+        'password': 'asdfghjkl1',
+        'database': 'slzheng$awesome'
     }
 }
